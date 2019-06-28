@@ -1,0 +1,36 @@
+@media (max-width: 850px) {
+    .left_menu {
+        display: none;
+    }
+    .more_item {
+        align-items: center;
+    }
+
+    .mobile-nav{
+        display: block;
+    }
+}
+
+@media (max-width: 590px) {
+    .item {
+        width: auto;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .left-content img[alt="airlines-logo"] {
+        display: none;
+    }
+
+    .left-content {
+        height: 102px;
+        border-right: none;
+    }
+
+    .right-content {
+       
+        padding-bottom: 16px;
+        border-bottom: 1px solid #d2d5d6;
+    }
+
+}
