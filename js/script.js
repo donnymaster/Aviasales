@@ -41,7 +41,7 @@
                     menu.style.position = "fixed";
                     menu.style.left = "0";
                     menu.style.top = "0";
-                    menu.style.paddingTop = "20vh";
+                    menu.style.paddingTop = "3vh";
                     menu.style.paddingBottom = "60vh";
                     menu.style.borderRadius = "initial";
                     fon.style.display = 'block';
