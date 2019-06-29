@@ -31,10 +31,19 @@
 
     (
         function(){
+            let funHideMenu = () => {
+                document.body.style = "";
+                menu.style = "";
+                fon.style.display = 'none';
+                hideMenu.style = "";
+            }
+
             let choice = 0;
             let mobileMenu = document.querySelector('.mobile-nav');
             let menu = document.querySelector('.left_menu');
             let fon = document.querySelector('.hide-menu');
+            let hideMenu = document.querySelector('.hideMenu');
+
             mobileMenu.addEventListener('click', () => {
                     document.body.style.overflow = "hidden";
                     menu.style.display = "block";
@@ -45,11 +54,15 @@
                     menu.style.paddingBottom = "60vh";
                     menu.style.borderRadius = "initial";
                     fon.style.display = 'block';
+                    hideMenu.style.display = "block";
             });
-            fon.addEventListener('click', () => {
-                document.body.style = "";
-                menu.style = "";
-                fon.style.display = 'none';
-            })
+
+
+
+
+            fon.addEventListener('click', funHideMenu);
+            hideMenu.addEventListener('click', funHideMenu);
+
+            
         }
     )();
