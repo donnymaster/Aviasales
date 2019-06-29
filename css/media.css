@@ -34,3 +34,29 @@
     }
 
 }
+
+
+@media (max-width: 370px) {
+    .right-content {
+        padding: 24px 4px;
+        width: 298px;
+        padding-right: 4px;
+    }
+    .sending{
+        width: 100%;
+    }
+    .plane{
+        text-align: center;
+        display: inline-flex;
+        height: 100%;
+    }
+
+    .arrival {
+        width: 100%;
+    }
+
+    .line-n {
+        width: 62px;
+        margin-left: 0px;
+    }
+}
