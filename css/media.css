@@ -1,6 +1,9 @@
 @media (max-width: 850px) {
     .left_menu {
         display: none;
+        height: 100vh;
+        overflow-y: auto;
+        overflow-x: hidden;
     }
     .more_item {
         align-items: center;
